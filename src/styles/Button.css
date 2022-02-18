@@ -1,0 +1,8 @@
+.Button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  height: 2rem;
+  margin: 0 1rem;
+  border-radius: 1rem;
+}
