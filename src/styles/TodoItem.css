@@ -1,0 +1,16 @@
+.TodoItem {
+  display: flex;
+  width: 50rem;
+  height: fit-content;
+  box-shadow: 0 0 3px black;
+  border-radius: 1rem;
+  background-color: rgb(206, 206, 206);
+  margin: 1rem 0;
+  text-align: center;
+  max-height: 20rem;
+  overflow-y: scroll;
+}
+
+.TodoItem::-webkit-scrollbar {
+  display: none;
+}

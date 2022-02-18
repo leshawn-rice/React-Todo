@@ -1,11 +1,16 @@
+// External Dependencies
 import React from 'react';
+// Internal Dependencies
 
-const TodoItem = ({ listItem={} }) => {
+// Styles
+import '../styles/TodoItem.css';
+
+const TodoItem = ({ listItem = {} }) => {
   return (
     <div className="TodoItem">
-        <h1>{listItem.id}</h1>
+      <h1>{listItem.content}</h1>
     </div>
-  )
-}
+  );
+};
 
 export default TodoItem;
