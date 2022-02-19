@@ -1,16 +1,16 @@
 // External Dependencies
 import React from 'react';
 // Components
-import TodoForm from './TodoForm';
-import TodoList from './TodoList';
+import ListForm from './ListForm';
+import List from './List';
 // Styles
 import '../styles/App.css';
 
 const App = () => {
   return (
     <div className="App">
-      <TodoForm />
-      <TodoList />
+      <ListForm />
+      <List />
     </div>
   );
 };

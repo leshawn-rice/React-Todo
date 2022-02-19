@@ -8,18 +8,16 @@ import Button from './Button';
 // Styles
 import '../styles/CompleteButton.css';
 
-const DeleteButton = ({itemId}) => {
-
+const DeleteButton = ({ item }) => {
   const dispatch = useDispatch();
 
   const handleClick = () => {
-    dispatch(removeItem({id: itemId}))
-  }
+    dispatch(removeItem({ id: item.id }));
+  };
 
   return (
     <Button handleClick={handleClick} classes="DeleteButton" text="Delete" />
-  )
-}
+  );
+};
 
 export default DeleteButton;
-

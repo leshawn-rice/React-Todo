@@ -1,4 +1,4 @@
-.TodoForm {
+.ListForm {
   display: flex;
   flex-direction: column;
   margin: 1rem;
@@ -8,7 +8,7 @@
   justify-content: space-evenly;
 }
 
-.TodoForm form {
+.ListForm form {
   display: flex;
   flex-direction: column;
   margin: 1rem;
@@ -18,12 +18,12 @@
   justify-content: space-between;
 }
 
-.TodoForm-Label {
+.ListForm-Label {
   font-size: 2rem;
   margin: 0.5rem 0;
 }
 
-.TodoForm-Input {
+.ListForm-Input {
   border: none;
   outline: none;
   margin: 0.5rem 0;
@@ -31,7 +31,7 @@
   height: 3rem;
 }
 
-.TodoForm-Btn {
+.ListForm-Btn {
   display: flex;
   border: none;
   outline: none;

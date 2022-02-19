@@ -5,9 +5,9 @@ import { v4 as uuidv4 } from 'uuid';
 // Internal Dependencies
 import { addItem } from '../redux/actionCreators';
 // Styles
-import '../styles/TodoForm.css';
+import '../styles/CommentsForm.css';
 
-const TodoForm = () => {
+const CommentsForm = () => {
   const INITIAL_DATA = {
     content: '',
   };
@@ -38,13 +38,13 @@ const TodoForm = () => {
   };
 
   return (
-    <div className="TodoForm">
+    <div className="CommentsForm">
       <form onSubmit={handleSubmit}>
         <label className="TodoForm-Label" htmlFor="content">
           Add List Item
         </label>
         <input
-          className="TodoForm-Input"
+          className="CommentsForm-Input"
           type="text"
           name="content"
           id="content"
@@ -52,10 +52,10 @@ const TodoForm = () => {
           onChange={handleChange}
           value={formData.content}
         />
-        <button className="TodoForm-Btn">Add!</button>
+        <button className="CommentsForm-Btn">Add!</button>
       </form>
     </div>
   );
 };
 
-export default TodoForm;
+export default CommentsForm;
